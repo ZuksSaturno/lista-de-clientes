@@ -1,0 +1,101 @@
+/*FONTES
+.hammersmith-one-regular {
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+.barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+.barlow-semibold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;}*/
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right ,#9b9b9b,#9b9b9b4f,#91ff9750) ;
+    height: 100vh;
+    background-color: #7ceff32a;
+}
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin:  0 5%;
+}
+h1{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+input,button{
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+th{
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    padding: 60px 0px 30px 0px;
+}
+form{
+    background-color: rgba(0, 255, 255, 0);
+    padding: 0px 0px 30px 0px;
+}
+input{
+    background-color: #000000;
+    border: solid 4px #7ED957;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    padding: 0px 5px;
+    margin-right: 20px;
+}
+::placeholder{
+    color: #ffffff9f;
+    text-align: center;
+    font-size: 18px;
+}
+button{
+    background-color: #222222;
+    border: solid 4px #7ED957;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 30px;
+    cursor: pointer;
+}
+button:hover{
+    transition: .2s;
+    box-shadow: rgb(77, 173, 101) 0px 0px 10px;
+}
+table{
+    width: 70%;
+}
+th{
+    border-bottom: #000000 solid 3px;
+    font-size: 20pt;
+    color: rgba(0, 0, 0, 0.616);
+}
+td{
+    padding: 10px 5px;
+    text-align: center;
+    border-bottom: #0000002c solid 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
